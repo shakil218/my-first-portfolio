@@ -21,6 +21,14 @@ body {
   color: #fff;
 }
 
+.image {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+
 /* navber styling */
 nav {
   display: flex;
@@ -47,5 +55,23 @@ nav a {
   text-decoration: none;
   color: #333;
 }
+
+.heading-descript {
+  background-color: #FFF8F3;
+}
+
+/* showcase styling */
+
+.showcase {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+
+}
+
+.showcase image {
+  width: 500px;
+}
+
 
 
