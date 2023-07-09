@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* utility classes */
 .logo {
@@ -29,11 +29,9 @@
   display: flex;
   justify-content: space-between;
   height:120px ;
-  /* background-image:linear-gradient(120deg,#3e32a8,#e310c7); */
   background-color: #000;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 50px;
 }
 
 ul {
@@ -64,12 +62,74 @@ ul li:hover {
   border-radius: 5px;
 }
 
- /* button:hover {
+/* this is body styling */
+
+
+#home-info {
+  height: 100vh;
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+#home-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 50px;
+}
+
+#home-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+#home-info .info-left {
+  float:left;
+  width: 50%;
+  min-height: 100%;
   color: #fff;
-  background-image: linear-gradient(120deg,#3e32a8,#e310c7);
-  padding: 10px;
-  border-radius: 5px;
-} */
+  padding: 50px;
+} 
+
+.info-left .text-heading ,
+.info-left p {
+  text-align: center;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.text-heading {
+  padding-bottom: 20px;
+  
+}
+
+p {
+  line-height: 20px;
+}
+
+
+/* footer section */
+
+hr{
+  border: 1px solid #524f4f;
+
+}
+
+#main-footer {
+  text-align: center;
+  background: #1c1b1b;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
 
 
 
