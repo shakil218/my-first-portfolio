@@ -6,13 +6,22 @@
 /* utility classes */
 .logo {
   height: 75px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .nav-btn {
   background-color:#FD6E0A; ;
   padding: 10px;
   border-radius: 5px;
+  border: 0;
+}
+
+.nav-btn:hover {
+  color: #fff;
+  background-image: linear-gradient(120deg,#3e32a8,#e310c7);
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
 }
 
 /* Styling Navigation ber */
@@ -20,7 +29,8 @@
   display: flex;
   justify-content: space-between;
   height:120px ;
-  background-color: #0c0b0b;
+  /* background-image:linear-gradient(120deg,#3e32a8,#e310c7); */
+  background-color: #000;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -46,6 +56,20 @@ button a {
   text-decoration: none;
   color: #fff;
 }
+
+ul li:hover {
+  color: #fff;
+  background-image: linear-gradient(120deg,#3e32a8,#e310c7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ /* button:hover {
+  color: #fff;
+  background-image: linear-gradient(120deg,#3e32a8,#e310c7);
+  padding: 10px;
+  border-radius: 5px;
+} */
 
 
 
