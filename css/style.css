@@ -6,22 +6,28 @@
 /* utility classes */
 .logo {
   height: 75px;
-  /* border-radius: 50%; */
 }
-
-.nav-btn {
+.btn-primary {
   background-color:#FD6E0A; ;
   padding: 10px;
   border-radius: 5px;
   border: 0;
 }
-
-.nav-btn:hover {
+.btn-primary:hover {
   color: #fff;
   background-image: linear-gradient(120deg,#3e32a8,#e310c7);
   padding: 10px;
   border-radius: 5px;
   border: 0;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+hr{
+  border: 1px solid #524f4f;
 }
 
 /* Styling Navigation ber */
@@ -38,23 +44,19 @@ ul {
   display: flex;
   align-items: center;
 }
-
 ul li {
   list-style: none;
   margin-right: 10px;
   padding: 2px;
 }
-
 ul li a {
   text-decoration: none;
   color: #fff;
 }
-
 button a {
   text-decoration: none;
   color: #fff;
 }
-
 ul li:hover {
   color: #fff;
   background-image: linear-gradient(120deg,#3e32a8,#e310c7);
@@ -63,10 +65,8 @@ ul li:hover {
 }
 
 /* this is body styling */
-
-
 #home-info {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #000;
 }
 
@@ -95,44 +95,29 @@ ul li:hover {
   min-height: 100%;
   color: #fff;
   padding: 50px;
-} 
-
+}
 .info-left .text-heading ,
 .info-left p {
-  text-align: center;
   font-style: italic;
   padding-left: 20px;
 }
 
 .text-heading {
   padding-bottom: 20px;
-  
+  font-size: 40px;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 p {
   line-height: 20px;
 }
 
-
 /* footer section */
-
-hr{
-  border: 1px solid #524f4f;
-
-}
-
 #main-footer {
   text-align: center;
   background: #1c1b1b;
   color: #fff;
   padding: 20px;
 }
-
-
-
-
-
-
-
-
-
