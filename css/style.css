@@ -114,8 +114,10 @@ p {
 
 /* footer section */
 #main-footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #1c1b1b;
   color: #fff;
-  padding: 20px;
+  height: 100px;
 }
