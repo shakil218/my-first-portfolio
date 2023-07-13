@@ -66,40 +66,38 @@ ul li:hover {
 
 /* this is body styling */
 #home-info {
-  /* height: 100vh; */
   background-color: #000;
 }
 
 .container {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: row-reverse;
 }
 #home-info .info-right {
-  float: right;
   width: 50%;
-  min-height: 100%;
   padding: 50px;
 }
 
 #home-info .info-right img {
   display: block;
   margin: auto;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
+  max-width: 50vw;
+  max-height: 100vh;
+  border-radius: 100%;
 }
 
 #home-info .info-left {
-  float:left;
   width: 50%;
-  min-height: 100%;
   color: #fff;
-  padding: 50px;
+  padding:50px;
 }
 .info-left .text-heading ,
 .info-left p {
   font-style: italic;
   padding-left: 20px;
+  max-width: 50vw;
 }
 
 .text-heading {
@@ -107,7 +105,7 @@ ul li:hover {
   font-size: 40px;
   background: linear-gradient(to right, #ff0000, #0000ff);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+ -webkit-background-clip: text;
 }
 
 p {
